@@ -28,4 +28,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ https:// https://first-project-live.surge.sh/.surge.sh/ --token ${{ secrets.TOKEN }}
+      run: surge ./ https:// https://first-project-live.surge.sh/ --token ${{ secrets.TOKEN }}
